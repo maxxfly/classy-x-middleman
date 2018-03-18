@@ -1,0 +1,90 @@
+<html>
+    <head>
+    	<title>Classy X - Fashion creation</title>
+    	<meta charset="utf-8"/>
+      <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic|Carrois+Gothic+SC" rel="stylesheet">
+
+      <%= stylesheet_link_tag 'base' %>
+      <%= stylesheet_link_tag 'style' %>
+      <%= stylesheet_link_tag 'font-awesome.min' %>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Classy X is redefining the fashion rulebook and what beauty means in the modern world." />
+
+      <%= javascript_include_tag 'bower_components/jquery/dist/jquery.min' %>
+      <%= javascript_include_tag 'index' %>
+      <%= javascript_include_tag 'modernizr.custom.79639' %>
+    </head>
+    <body>
+      <header>
+        <a href="index.html"><%= image_tag "images/img/logo_onepagepng8.png", alt: "Classy X", title: "Classy X", width: "240" %></a>
+        <div class="container">
+          <section class="carousel">
+            <div id="carousel">
+              <div class="paragraphe">
+                <p>Classy X is redefining the fashion rulebook</p>
+          		  <p>and what beauty means in the modern world.</p>
+          		</div>
+              <div class="paragraphe">
+                <p>We work with classic beauty as well with plus size,</p>
+          		  <p>transgender, bodmod and other non-conforming beauty.</p>
+          		</div>
+              <div class="paragraphe">
+               	<p>We are moving the conversation</p>
+                <p>on fashion to new heights.</p>
+                <a href="javascript: replay();"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            Replay
+                </a>
+        		  </div>
+         	  </div>
+          </section>
+        </div>
+        <div class="menu">
+          <a href="https://www.etsy.com/shop/ClassyXDesign" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse hidden"></i>
+              <i class="fa fa-shopping-bag fa-stack-1x hidden" aria-hidden="true"></i>
+            </span>
+          </a>
+
+          <a href="https://www.instagram.com/classyxdesign/" onclick="track_instagram()" target="_blank" title="Instagram page">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse hidden"></i>
+              <i class="fa fa-instagram fa-stack-1x hidden" aria-hidden="true"></i>
+            </span>
+          </a>
+        </div>
+      </header>
+
+      <section id="main">
+        <%= yield %>
+      </section>
+
+      <footer>
+        <div><a href="https://www.etsy.com/shop/ClassyXDesign" target="_blank" title="Buy on Etsy">Etsy</a></div>
+        <div><a href="mailto:info@classy-x.com">Contact</a></div>
+        <div><a href="https://www.instagram.com/classyxdesign/" target="_blank" title="Instagram page">Instagram</a></div>
+        <div><a href="galery.html">Galerie</a></div>
+      </footer>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36264559-3', 'auto');
+        ga('send', 'pageview');
+
+        function track_etsy(){
+          ga('set', 'page', '/etsy.html');
+          ga('send', 'pageview');
+        }
+
+        function track_instagram(){
+          ga('set', 'page', '/instagram.html');
+          ga('send', 'pageview');
+        }
+
+      </script>
+    </body>
+</html>

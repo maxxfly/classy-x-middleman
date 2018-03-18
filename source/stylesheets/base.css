@@ -1,0 +1,268 @@
+BODY
+{
+	background-color: black;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	width: auto;
+	margin: 0;
+	padding: 0;
+}
+
+HEADER
+{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+HEADER IMG
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+SECTION.main, #main
+{
+	font-family: 'Carrois Gothic', sans-serif;
+	background-color: #eee;
+	margin: 0;
+	width: 100%;
+}
+
+FOOTER
+{
+	height: 30px;
+	padding-bottom: 20px;
+}
+
+FOOTER DIV {
+	width: 22%;
+	display: inline-block;
+	text-align: center;
+}
+
+FOOTER DIV A {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 20px;
+}
+
+#description
+{
+	width: 1050px;
+	margin: 0 auto;
+	color: #333;
+	padding-bottom: 20px;
+}
+
+P { font-size: 1.1em; }
+
+CITE
+{
+	font-size: 1em;
+	padding-left: 20px;
+	display: inline-block;
+	border-left: 1px solid #888;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.container{
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+
+SECTION.carousel
+{
+	width: 800px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#carousel
+{
+	width: 20000px;
+	position: relative;
+	-webkit-transition: margin-left 1s;
+}
+
+#carousel .paragraphe
+{
+	margin: 0;
+	width: 700px;
+	display: inline-block;
+	position: relative;
+}
+
+#carousel .paragraphe P
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	margin: 2px 0;
+	-webkit-transition: left 3s;
+	-webkit-transition: opacity 2s;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+  filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#carousel .paragraphe P+P
+{
+	-webkit-transition-delay: 4s;
+}
+
+
+#carousel .displayed P
+{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+	filter: alpha(opacity=99);
+	opacity: 1
+}
+
+#carousel A
+{
+	display: none;
+	color: #ccc;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	margin: 0 20px;
+	text-decoration: none;
+}
+
+#carousel A:hover
+{
+	text-decoration: underline;
+}
+
+.navigation
+{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	left: 10px;
+	color: #CCC;
+	cursor: pointer;
+}
+
+.navigation.hidden
+{
+	display: none !important;
+}
+
+.button
+{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	display: inline-block;
+	height: 20px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+IMG
+{
+	-webkit-filter: grayscale(0%); /* Safari */
+  filter: grayscale(0%);
+
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 1150px) {
+	HEADER IMG { margin-right: 15px;  }
+}
+
+@media screen and (max-width: 1150px) {
+	HEADER { width: 700px; }
+	HEADER IMG { margin-right: 0px; width: 150px !important; }
+	SECTION.carousel { width: 470px; }
+	#carousel .paragraphe	{	width: 470px;	}
+	#carousel .paragraphe P	{ font-size: 16px; }
+	#description { width: 100%; }
+	#img_description { max-width: 100% !important; margin: 0 0; }
+}
+
+.ia-container FIGURE.disabled > IMG
+{
+	-webkit-filter: grayscale(100%) blur(1px); /* Safari */
+  filter: grayscale(100%) blur(1px);
+}
+
+.center { text-align: center;}
+
+.menu
+{
+	width: 30px;
+	display: inline-block;
+	margin: 5px 0 0 15px;
+	vertical-align: top;
+}
+
+.menu A {
+	color: #000;
+}
+.menu A:hover {
+	color: #555;
+}
+
+.menu A:hover .fa-inverse {
+	color: #DDD;
+	filter:blur(2px);
+	-webkit-filter:blur(2px);
+}
+
+.galery  { }
+
+.galery FIGURE { width: 250px; float: left; padding: 5px 5px 5px 5px; background-color: white; cursor: pointer; cursor: hand; margin: 15px ; }
+
+.galery FIGCAPTION { display: none; }
+.galery FIGURE DIV { display: none; }
+
+#popin
+{
+	position: absolute; top: 0; left: 0;
+	width: 100%; height: 70%;
+	background-color: black;
+	z-index: 50;
+	text-align: center;
+}
+
+#popin #content_popin
+{
+	z-index: 60;
+	display: inline-block;
+	padding: 0;
+	position: relative;
+}
+
+
+#popin #content_popin FIGCAPTION { color: #CCC; }
+#popin #content_popin FIGCAPTION, A { color: #CCC; }
+
+#popin #close { color: #bbb; text-align: right;  cursor: pointer; cursor: hand; z-index: 1000;  }
+
+#popin #bigphoto {  max-width: 100%; max-height: 800px; margin: 5px auto;  cursor: pointer; cursor: hand; display: inline-block;}
+
+#popin A { text-decoration: none; font-weight: bold;}
+
+#popin .info_supp { display: inline-block; }
+
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}

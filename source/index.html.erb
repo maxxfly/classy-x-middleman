@@ -1,0 +1,13 @@
+<script>
+  var language = window.navigator.userLanguage || window.navigator.language;
+
+  if( (language.indexOf("fr") !== -1) ||
+      (language.indexOf("FR") !== -1) )
+  {
+    window.location = "fr/index.html";
+  }
+  else
+  {
+    window.location = "en/index.html";
+  }
+</script>
