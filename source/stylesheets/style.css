@@ -159,7 +159,7 @@
 @media screen and (max-width: 750px) {
 	.ia-container figure { width: 100% !important; left: 0; }
 	.ia-container { width: 100%; }
-	.ia-container figure { position: inherit; display: inline-block; }
+	.ia-container figure { position: inherit; }
 	.ia-container { border: none; }
 	.ia-container IMG { width: 30%;  float: left; padding: 2px;  }
 	INPUT { display: none !important; }
