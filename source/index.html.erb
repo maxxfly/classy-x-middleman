@@ -4,10 +4,15 @@
   if( (language.indexOf("fr") !== -1) ||
       (language.indexOf("FR") !== -1) )
   {
-    window.location = "fr/index.html";
+    url_to_redirect = "fr/index.html";
   }
   else
   {
-    window.location = "en/index.html";
+    url_to_redirect = "en/index.html";
   }
+
+  $('document').ready(function(){
+    redirect_to(url_to_redirect);url_to_redirect
+  });
+
 </script>

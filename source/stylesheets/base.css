@@ -35,7 +35,7 @@ FOOTER
 }
 
 FOOTER DIV {
-	width: 22%;
+	width: 18%;
 	display: inline-block;
 	text-align: center;
 }
@@ -186,6 +186,16 @@ IMG
 	#carousel .paragraphe P	{ font-size: 16px; }
 	#description { width: 100%; }
 	#img_description { max-width: 100% !important; margin: 0 0; }
+
+	FOOTER DIV{
+		width: 33%;
+		display: inline-block;
+		text-align: left;
+	}
+
+	FOOTER DIV A{
+		font-size:16px;
+	}
 }
 
 .ia-container FIGURE.disabled > IMG
