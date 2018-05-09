@@ -87,11 +87,18 @@
         }
 
         function redirect_to(url) {
-          ga('send', 'pageview', {
-            'hitCallback': function() {
-              window.location = url;
-            }
-          });
+          if(ga && ga.create)
+          {
+            ga('send', 'pageview', {
+              'hitCallback': function() {
+                window.location = url;
+              }
+            });
+          }
+          else
+          {
+            window.location = url;
+          }
         }
 
       </script>
