@@ -86,8 +86,10 @@ $(document).ready()
 		}
 	}
 
-	$('.galery').masonry({
-	  itemSelector : 'FIGURE'
-  });
+	$( window ).on( "load", function() {
+		$('.galery').masonry({
+		  itemSelector : 'FIGURE'
+	  });
+	});
 
 }

@@ -166,6 +166,9 @@
 	.menu {position: absolute; right: 15px;}
 	.carousel { display: none;}
 	HEADER { width: 100% !important; }
+
+  .galery FIGURE { padding: 1px; margin: 0px; width: 49%; }
+	.galery IMG { width: 100%; height: auto; }
 }
 
 @media screen and (max-width: 1050px) {
