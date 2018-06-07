@@ -6,7 +6,8 @@
 
       <%= stylesheet_link_tag 'base' %>
       <%= stylesheet_link_tag 'style' %>
-      <%= stylesheet_link_tag 'font-awesome.min' %>
+
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
       <meta name="description" content="Classy X is redefining the fashion rulebook and what beauty means in the modern world." />
@@ -40,17 +41,24 @@
           </section>
         </div>
         <div class="menu">
-          <a href="https://www.etsy.com/shop/ClassyXDesign" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
+          <a href="https://www.etsy.com/shop/ClassyXDesign" class="icon" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x fa-inverse hidden"></i>
-              <i class="fa fa-shopping-bag fa-stack-1x hidden" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+              <i class="fas fa-shopping-bag fa-stack-1x hidden" aria-hidden="true"></i>
             </span>
           </a>
 
-          <a href="https://www.instagram.com/classyxdesign/" onclick="track_instagram()" target="_blank" title="Instagram page">
+          <a href="https://www.instagram.com/classyxdesign/" class="icon" onclick="track_instagram()" target="_blank" title="Instagram page">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x fa-inverse hidden"></i>
-              <i class="fa fa-instagram fa-stack-1x hidden" aria-hidden="true"></i>
+              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+              <i class="fab fa-instagram fa-stack-1x hidden" aria-hidden="true"></i>
+            </span>
+         </a>
+
+          <a href="https://shop.spreadshirt.fr/classy-x-design/" class="icon" onclick="track_spreadshirt()" target="_blank" title="Spreadshirt page">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+              <i class="fas fa-tshirt fa-stack-1x hidden" aria-hidden="true"></i>
             </span>
           </a>
         </div>
@@ -83,6 +91,11 @@
 
         function track_instagram(){
           ga('set', 'page', '/instagram.html');
+          ga('send', 'pageview');
+        }
+
+        function track_spreadshirt(){
+          ga('set', 'page', '/spreadshirt.html');
           ga('send', 'pageview');
         }
 

@@ -179,8 +179,7 @@ IMG
 }
 
 @media screen and (max-width: 1150px) {
-	HEADER { width: 700px; }
-	HEADER IMG { margin-right: 0px; width: 150px !important; }
+	HEADER { width: 700px; text-align: center; }
 	SECTION.carousel { width: 470px; }
 	#carousel .paragraphe	{	width: 470px;	}
 	#carousel .paragraphe P	{ font-size: 16px; }
