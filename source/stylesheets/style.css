@@ -156,6 +156,14 @@
 	}
 }
 
+#video {
+	text-align: center;
+}
+
+IFRAME {
+	width: 750px; height: 422px;
+}
+
 @media screen and (max-width: 750px) {
 	.ia-container figure { width: 100% !important; left: 0; }
 	.ia-container { width: 100%; }
@@ -169,6 +177,11 @@
 
   .galery FIGURE { padding: 1px; margin: 0px; width: 49%; }
 	.galery IMG { width: 100%; height: auto; }
+
+
+	IFRAME {
+		width: 375px; height: 211px;
+	}
 }
 
 @media screen and (max-width: 1050px) {
