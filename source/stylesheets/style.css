@@ -171,7 +171,6 @@ IFRAME {
 	.ia-container { border: none; }
 	.ia-container IMG { width: 30%;  float: left; padding: 2px;  }
 	INPUT { display: none !important; }
-	.menu {position: absolute; right: 15px;}
 	.carousel { display: none;}
 	HEADER { width: 100% !important; }
 

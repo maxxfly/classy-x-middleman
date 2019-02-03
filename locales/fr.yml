@@ -21,5 +21,20 @@ fr:
       line2: "Certains designs sont régulièrement disponibles sur la boutique en ligne."
       line3: "Le projet est en collaboration entre Paris, Londres et Montréal, avec l'espoir de s'élargir à d'autres villes:"
       line4: "ClassyX design est en permanente évolution et ne demande qu'à s'étendre."
+
+  support:
+    title: Aidez nous
+    line1: Classy X est un projet bénévol. Si vous aimez le projet d'une facon ou d'une autre, n'hésitez pas !
+    line2: Vous avez plusieurs solutions
+    line3: Nous suivre sur les réseaux sociaux
+    line4: Partagez sur vos pages de réseaux sociaux
+    line5: Et pourquoi pas craquer pour l'une de nos créations
+    share_twitter: Marre de la dictature de la mode ? Envie d'une mode plus inclusive et plus éthique ? Partageons le projet classyxdesign ! 
+
+  presse:
+    title: On parle de nous
+
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"
+  button_presse: On parle de nous
+  button_support: Supporter le projet

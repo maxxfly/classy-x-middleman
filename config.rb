@@ -33,6 +33,12 @@ page '/*.txt', layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
+helpers do
+  def get_images_in_galery
+    Dir.entries("source/images/galery/thumb/").select{|e| /.jpe?g/.match(e)}
+  end
+end
+
 # helpers do
 #   def some_helper
 #     'Helping'
@@ -42,7 +48,8 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
+ configure :build do
+
 #   activate :minify_css
 #   activate :minify_javascript
-# end
+ end

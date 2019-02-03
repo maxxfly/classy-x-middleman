@@ -40,28 +40,6 @@
          	  </div>
           </section>
         </div>
-        <div class="menu">
-          <a href="https://www.etsy.com/shop/ClassyXDesign" class="icon" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
-              <i class="fas fa-shopping-bag fa-stack-1x hidden" aria-hidden="true"></i>
-            </span>
-          </a>
-
-          <a href="https://www.instagram.com/classyxdesign/" class="icon" onclick="track_instagram()" target="_blank" title="Instagram page">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
-              <i class="fab fa-instagram fa-stack-1x hidden" aria-hidden="true"></i>
-            </span>
-         </a>
-
-          <a href="https://www.redbubble.com/fr/people/classyXdesign/shop" class="icon" onclick="track_redbubble()" target="_blank" title="Redbubble page">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
-              <i class="fas fa-tshirt fa-stack-1x hidden" aria-hidden="true"></i>
-            </span>
-          </a>
-        </div>
       </header>
 
       <section id="main">
@@ -69,10 +47,12 @@
       </section>
 
       <footer>
-        <div><a href="https://www.etsy.com/shop/ClassyXDesign" target="_blank" title="Buy on Etsy">Etsy</a></div>
+
         <div><a href="mailto:info@classy-x.com">Contact</a></div>
-        <div><a href="https://www.instagram.com/classyxdesign/" target="_blank" title="Instagram page">Instagram</a></div>
         <div><a href="galery.html">Galerie</a></div>
+        <div><a href="support.html" target="_blank" title="<%= t(:button_support) %>"><%= t(:button_support) %></a></div>
+        <div><a href="presse.html" target="_blank" title="<%= t(:button_presse) %>"><%= t(:button_presse) %></a></div>
+        <div><a href="https://www.instagram.com/classyxdesign/" target="_blank" title="Instagram page">Instagram</a></div>
       </footer>
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -100,6 +80,21 @@
 
         function track_redbubble(){
           ga('set', 'page', '/redubble.html');
+          ga('send', 'pageview');
+        }
+
+        function track_twitter(){
+          ga('set', 'page', '/twitter.html');
+          ga('send', 'pageview');
+        }
+
+        function track_share_twitter() {
+          ga('set', 'page', '/share_twitter.html');
+          ga('send', 'pageview');
+        }
+
+        function track_share_facebook() {
+          ga('set', 'page', '/share_facebook.html');
           ga('send', 'pageview');
         }
 

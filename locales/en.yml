@@ -21,5 +21,21 @@ en:
       line2: "Some creations are regularly available in the online store."
       line3: "The project is a collaboration between Paris, Londres and Montréal, with the aspiration of spreading to other cities:"
       line4: "ClassyX design is in permanent evolution and aims to grow."
+
+
+  support:
+    title: Support us
+    line1: Classy X is a volunteer project. If you like the project one way or another, don't hesitate!
+    line2: You have several possibilities
+    line3: Follow us on social networks
+    line4: Share on your social networking pages
+    line5: Succumbe to the temptation for our designs
+    share_twitter: Fed up with the dictatorship of fashion? Want a more inclusive and ethical fashion? Share the project classyxdesign !
+
+  presse:
+    title: We talk about us
+
   button_galery: "See other pictures"
   button_tshirt: "See our tshirts"
+  button_presse: We talk about us
+  button_support: Support the project

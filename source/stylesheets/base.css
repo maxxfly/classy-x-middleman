@@ -35,7 +35,7 @@ FOOTER
 }
 
 FOOTER DIV {
-	width: 23%;
+	width: 18%;
 	display: inline-block;
 	text-align: center;
 }
@@ -53,6 +53,55 @@ FOOTER DIV A {
 	margin: 0 auto;
 	color: #333;
 	padding-bottom: 20px;
+}
+
+#description .icon
+{
+	margin-left: 50px;
+}
+
+#description #support A
+{
+	color: black
+}
+
+#description #support{
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+#support A {
+	text-decoration: none;
+}
+
+#support A .label
+{
+	font-weight: bold;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+#support DIV DIV
+{
+	padding-bottom: 20px;
+}
+
+.presse H1
+{
+	font-size: 24px;
+	padding: 10px 0;
+}
+
+.presse H2
+{
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+.presse IMG
+{
+	width: 90%;
+	margin: 0 50px 20px 50px;
 }
 
 P { font-size: 1.1em; }
@@ -90,7 +139,7 @@ SECTION.carousel
 #carousel .paragraphe
 {
 	margin: 0;
-	width: 700px;
+	width: 800px;
 	display: inline-block;
 	position: relative;
 }
@@ -204,27 +253,6 @@ IMG
 }
 
 .center { text-align: center;}
-
-.menu
-{
-	width: 30px;
-	display: inline-block;
-	margin: 5px 0 0 15px;
-	vertical-align: top;
-}
-
-.menu A {
-	color: #000;
-}
-.menu A:hover {
-	color: #555;
-}
-
-.menu A:hover .fa-inverse {
-	color: #DDD;
-	filter:blur(2px);
-	-webkit-filter:blur(2px);
-}
 
 .galery  { }
 
