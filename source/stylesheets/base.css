@@ -285,6 +285,24 @@ IMG
 		margin: 0 0;
 	}
 
+	.brut_image P {
+		font-size: 20px;
+		letter-spacing: 2px;
+		transition: 0.75s ease-in-out;
+	}
+
+	.brut_image .p1 {
+		top: 20px;
+	}
+
+	.brut_image .p2 {
+		top: 70px;
+	}
+
+	.brut_image .p3 {
+		top: 120px;
+	}
+
 	FOOTER DIV{
 		width: 33%;
 		display: inline-block;
