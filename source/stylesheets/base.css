@@ -304,13 +304,14 @@ IMG
 	}
 
 	FOOTER DIV{
-		width: 33%;
+		width: 40%;
 		display: inline-block;
 		text-align: left;
+		padding: 2px; margin-bottom: 2px;
 	}
 
 	FOOTER DIV A{
-		font-size:16px;
+		font-size:14px;
 	}
 }
 
