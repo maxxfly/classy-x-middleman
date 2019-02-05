@@ -22,8 +22,6 @@ $(document).ready()
     */
 	}
 
-
-
 	$('.galery FIGURE').bind('click', function(e)
 		{
 			$('body').append('<div id="popin"></div>');

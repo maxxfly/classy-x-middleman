@@ -17,7 +17,7 @@ en:
       line1: "Participating members of the ClassyX design project are mostly women, plus sized or originating from the LGBT community.
          Being directly representative of the public it addresses: empowerment without compromise."
     p4:
-      line1: "As part of a more ethical fashion logic, the majority of handmade creations are made from recycled fabrics and materials."
+      line1: "As part of a more ethical fashion logic, the handmade creations are made from recycled fabrics or upcycled."
       line2: "Some creations are regularly available in the online store."
       line3: "The project is a collaboration between Paris, Londres and Montréal, with the aspiration of spreading to other cities:"
       line4: "ClassyX design is in permanent evolution and aims to grow."
@@ -39,3 +39,7 @@ en:
   button_tshirt: "See our tshirts"
   button_presse: We talk about us
   button_support: Support the project
+
+  brut_p1: SUSTAINABLE
+  brut_p2: RECYCLED
+  brut_p3: UPCYCLED

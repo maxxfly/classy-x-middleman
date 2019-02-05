@@ -107,11 +107,33 @@
     <a href="support.html" class="button"><%= t(:button_support) %></a>
     <a href="presse.html" class="button"><%= t(:button_presse) %></a>
 
+    <br/><br/><br/>
+
+    <div>
+      <div class="brut_image" id="img_description_2" style="display: inline-block;">
+        <img src="../images/photos/description_2.jpg" width="800"
+            class="center"/>
+        <p class="p1"><%= t(:brut_p1) %></p>
+        <p class="p2"><%= t(:brut_p2) %></p>
+        <p class="p3"><%= t(:brut_p3) %></p>
+      </div>
+    </div>
+
     <br/><br/>
 
     <a href="galery.html">
       <img src="../images/photos/description_1.jpg" width="800" id="img_description"
             title="backstage" alt="backstage" class="center"/>
     </a>
+
   </div>
 </div>
+
+<script>
+  window.setInterval(function() {
+    if(isScrolledIntoView(document.getElementById('img_description_2'))) {
+      $('#img_description_2').addClass("animated");
+    }
+  }, 250);
+
+</script>

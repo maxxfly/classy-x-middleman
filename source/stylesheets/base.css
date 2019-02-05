@@ -70,6 +70,51 @@ FOOTER DIV A {
 	padding: 15px 0;
 }
 
+.brut_image
+{
+  position: relative;
+	overflow: hidden;
+}
+
+.brut_image P {
+	font-weight: bold;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	background-color: #fe00d9;
+	padding: 3px 6px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	transition: 0.75s ease-in-out;
+}
+
+.brut_image .p1 {
+  position: absolute;
+	top: 50px;
+	right: -200px;
+	transition-delay: 0;
+}
+
+.brut_image .p2 {
+	position: absolute;
+	top: 130px;
+	right: -200px;
+  transition-delay: 2s;
+}
+
+.brut_image .p3 {
+	position: absolute;
+	top: 210px;
+	right: -200px;
+	transition-delay: 4s;
+}
+
+.brut_image.animated P {
+	right: 0 !important;
+}
+
+
+
 #support A {
 	text-decoration: none;
 }
@@ -234,6 +279,11 @@ IMG
 	#carousel .paragraphe P	{ font-size: 16px; }
 	#description { width: 100%; }
 	#img_description { max-width: 100% !important; margin: 0 0; }
+
+	.brut_image IMG {
+		max-width: 100% !important;
+		margin: 0 0;
+	}
 
 	FOOTER DIV{
 		width: 33%;
