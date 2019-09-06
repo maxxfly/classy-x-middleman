@@ -77,56 +77,78 @@
 </div>
 
 <div id="description">
-  <p><%= t("description.p1.line1") %><br/>
-     <%= t("description.p1.line2") %>
+  <h2><%= t("new_description.concept.title") %></h2>
+  <p><%= t("new_description.concept.p1") %></p>
+  <p><%= t("new_description.concept.p2") %></p>
+
+  <cite><%= t("new_description.concept.p3") %></cite>
+
+  <p><%= t("new_description.concept.p4") %></p>
+  <p><%= t("new_description.concept.p5") %></p>
+
+  <p style="text-align: right;">
+    <a href="galery.html" class="button">&gt; <%= t(:button_galery) %></a>
   </p>
-
-  <cite>"<%= t("description.cite1.line1") %><br/>
-         <%= t("description.cite1.line2") %><br/>
-         <%= t("description.cite1.line3") %>"
-
-  </cite>
-  <p><%= t("description.p2.line1") %></p>
-
-
-  <cite>"<%= t("description.cite2.line1") %>"</cite>
 
   <div id="video">
     <iframe src="https://www.youtube.com/embed/u9lD5CMmaKU?rel=0&controls=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 
-  <p><%= t("description.p3.line1") %></p>
-
+  <br/>
+  <h2><%= t("new_description.working.title") %></h2>
   <p>
-     <%= t("description.p4.line1") %><br/>
-     <%= t("description.p4.line3") %><br/>
-     <%= t("description.p4.line4") %></p>
+    <%= t("new_description.working.p1") %><br/>
+    <%= t("new_description.working.p2") %>
+  </p>
+  <p>
+    <%= t("new_description.working.p3") %>
+  </p>
+
+  <cite><%= t("new_description.working.p4") %></cite>
+
+  <p><%= t("new_description.working.p5") %></p>
+  <p>
+    <%= t("new_description.working.p6") %><br/>
+    <%= t("new_description.working.p7") %>
+  </p>
+
+  <p style="text-align: right;">
+    <a href="presse.html" class="button">&gt; <%= t(:button_presse) %></a>
+  </p>
+
+  <div style="text-align: center;">
+    <div class="brut_image" id="img_description_2" style="display: inline-block;">
+      <img src="../images/photos/description_2.jpg" width="800"
+          class="center"/>
+      <p class="p1"><%= t(:brut_p1) %></p>
+      <p class="p2"><%= t(:brut_p2) %></p>
+      <p class="p3"><%= t(:brut_p3) %></p>
+    </div>
+  </div>
+
+  <br/>
+  <h2><%= t("new_description.share.title") %></h2>
+  <p><%= t("new_description.share.p1") %></p>
+  <p><%= t("new_description.share.p2") %></p>
+
+  <p style="text-align: right;">
+    <a href="support.html" class="button">&gt; <%= t(:button_support) %></a>
+  </p>
 
   <div class="center">
-    <a href="galery.html" class="button"><%= t(:button_galery) %></a>
+    <!--<a href="galery.html" class="button"><%= t(:button_galery) %></a>
     <a href="support.html" class="button"><%= t(:button_support) %></a>
     <a href="presse.html" class="button"><%= t(:button_presse) %></a>
 
     <br/><br/><br/>
-
-    <div>
-      <div class="brut_image" id="img_description_2" style="display: inline-block;">
-        <img src="../images/photos/description_2.jpg" width="800"
-            class="center"/>
-        <p class="p1"><%= t(:brut_p1) %></p>
-        <p class="p2"><%= t(:brut_p2) %></p>
-        <p class="p3"><%= t(:brut_p3) %></p>
-      </div>
-    </div>
-
-    <br/><br/>
-
+    --->
     <a href="galery.html">
       <img src="../images/photos/description_1.jpg" width="800" id="img_description"
             title="backstage" alt="backstage" class="center"/>
     </a>
 
   </div>
+
 </div>
 
 <script>
