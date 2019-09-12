@@ -2,26 +2,25 @@
 en:
   new_description:
     concept:
-      title: "NOTRE CONCEPT"
-      p1: "Classy X design est un projet artistique promouvant une mode plus inclusive et eco-responsable."
-      p2: "Dans l'incarnation du changement, la fondatrice Diana Apsara (designeuse et mannequin) n'hésite pas à inclure des modèles hors des standards habituels (de toutes mensurations, transgenres, bodmodées, de tout âges, de diverses origines...)"
-      p3: "La standardisation de la beauté m'angoisse, elle nous prive de notre authenticité. Il y a tant de diversités sous représentées... La mode se doit d’évoluer et de mieux refléter la société"
-      p4: "Classy X Design s'inscrit également dans une logique de mode plus éthique: les créations fait-main sont réalisées sur le principe de l'upcycling."
-      p5: "En revalorisant des tissus et matériaux de seconde main, nous participons à une mode plus respectueuse de l'environnement et nous nous opposons aux circuits esclavagistes des industries de la fast fashion."
+      title: "OUR CONCEPT"
+      p1: "Classy X design is an artistic project promoting a more inclusive and eco-friendly fashion."
+      p2: "Diana Apsara, founder, designer and model, embodies the project by including models outside of the industry standards (from all size, shapes, ages and origins, transgenders, bodmoded, and so on)"
+      p3: "The standardization of beauty anguishes me, it robs us of our authenticity. There are so much diversity under-represented in the fashion industry... It must evolve to reflect society more accurately."
+      p4: "Classy X Design aims to be more ethical than the curent industry: every creation follows the upcycling principles."
+      p5: "We partake in an eco-friendly fashion by rehabilitating secondhand fabrics and materials and we oppose the fast fashion industry which relies on slavery networks."
     working:
-      title: "NOTRE FONCTIONNEMENT"
-      p1: "Classy X, c'est une exposition en mouvement permanent."
-      p2: "Chaque oeuvre une fois créée est prioritairement destinée aux shootings, défilés et performances dans l’objectif de repenser la mode de demain."
-      p3: "La mode en tant qu’art est un moyen d'expression et de communication. S'exprimer sur d'autres possibilités de vivre la mode c'est ouvrir la voie vers une évolution plus juste et égalitaire de celle ci. C'est reprendre le pouvoir. Parce que nous ne voulons plus d'une mode qui exclut et qui exploite."
-      p4: "La mode n’est pas une question productivité mais une question de créativité"
-      p5: "Elle ne doit plus être synonyme de surconsommation mais de coup de cœur."
-      p6: "Nous faisons le choix de ne vendre que très peu de pièces de nos collections."
-      p7: "Mais vous pourrez retrouver certaines d’entre elles sur notre E-shop ou sur certains marchés créateurs."
+      title: "HOW WE OPERATE"
+      p1: "Classy X is a perpetually moving exhibition."
+      p2: "Every new creation is primarily used for photoshootings, fashion shows and happenings aiming to challenge the future of fashion."
+      p3: "Fashion as an art is a means of expression and communication. By expressing new ways and opportunities through it, we aim to improve fashion as a better, fairer and more egalitarian industry. It's taking the power back. Because we are fed up with the current divisive and exploiting fashion industry."
+      p4: "Fashion is not a matter of productivity but of creativity."
+      p5: "It should no more be related to overcomsuption but to emotion."
+      p6: "We choose to sell only a few pieces of our collections."
+      p7: "but you can find them in our e-shop or on handmade markets."
     share:
-      title: "PARTAGEZ AUTOUR DE VOUS"
-      p1: "N'hésitez pas à nous suivre sur les réseaux sociaux pour être tenu informé et partagez autour de vous  pour contribuer au projet."
-      p2: "Ne soyons plus fashion victimes, soyons le style et l'influence de demain ! "
-  
+      title: "SHARE"
+      p1: "Follow us on social networks to keep in touch and share our project with your friends."
+      p2: "Don't be a fashion victim anymore, be tomorrow fashion influencer!"
 
   description:
     p1:
