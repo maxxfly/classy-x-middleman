@@ -30,8 +30,8 @@ page '/*.txt', layout: false
 # )
 
 ["other", "t_bien_roule", "queen", "jeans"].each do |name|
-  proxy "fr/galery_#{name}.html", "localizable/galery.fr.html", :locals => { :galery_name => name }
-  proxy "en/galery_#{name}.html", "localizable/galery.en.html", :locals => { :galery_name => name }
+  proxy "fr/galery_#{name}.html", "localizable/galery.fr.html", :locals => { :galery_name => name }, locale: :fr
+  proxy "en/galery_#{name}.html", "localizable/galery.en.html", :locals => { :galery_name => name }, locale: :en
 end
 
 

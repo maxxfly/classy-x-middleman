@@ -124,7 +124,20 @@ FOOTER DIV A {
 	right: 0 !important;
 }
 
+.products .sub_part {
+	padding-left: 30px;
+}
 
+.products .sub_part IMG {
+	padding: 0 20px;
+	vertical-align:top;
+	margin-bottom: 20px;
+}
+
+.products .text {
+	display: inline-block;
+	width: 700px;
+}
 
 #support A {
 	text-decoration: none;

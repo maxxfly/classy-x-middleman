@@ -57,19 +57,19 @@ fr:
     title: On parle de nous
 
   products:
-    title: Nos Creations
+    title: Nos Créations
 
   galeries:
-    other: Nos autres creations
+    other: Nos autres créations
     queen: Queen
-    t_bien_roule: T'es bien roule
+    t_bien_roule: T'es bien roulé
     jeans: Jeans
 
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"
   button_presse: On parle de nous
   button_support: Supporter le projet
-  button_products: Nos creations
+  button_products: Nos créations
 
   brut_p1: DURABLE
   brut_p2: RECYCLÉ
