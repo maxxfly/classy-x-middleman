@@ -21,7 +21,7 @@ fr:
       title: "PARTAGEZ AUTOUR DE VOUS"
       p1: "N'hésitez pas à nous suivre sur les réseaux sociaux pour être tenu informé et partagez autour de vous  pour contribuer au projet."
       p2: "Ne soyons plus fashion victimes, soyons le style et l'influence de demain ! "
-  
+
   description:
     p1:
       line1: "ClassyX design est né d'une synergie entre amis et artistes (modèles, photographes, maquilleurs, stylistes, vidéastes) souhaitant s'émanciper de la mode mainstream."
@@ -56,10 +56,20 @@ fr:
   presse:
     title: On parle de nous
 
+  products:
+    title: Nos Creations
+
+  galeries:
+    other: Nos autres creations
+    queen: Queen
+    t_bien_roule: T'es bien roule
+    jeans: Jeans
+
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"
   button_presse: On parle de nous
   button_support: Supporter le projet
+  button_products: Nos creations
 
   brut_p1: DURABLE
   brut_p2: RECYCLÉ

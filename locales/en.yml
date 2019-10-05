@@ -57,10 +57,20 @@ en:
   presse:
     title: We talk about us
 
+  products:
+    title: Our products
+
+  galeries:
+    other: Our other products
+    queen: Queen
+    t_bien_roule: T'es bien roule
+    jeans: Jeans
+
   button_galery: "See other pictures"
   button_tshirt: "See our tshirts"
   button_presse: We talk about us
   button_support: Support the project
+  button_products: Our products
 
   brut_p1: SUSTAINABLE
   brut_p2: RECYCLED

@@ -70,8 +70,19 @@ FOOTER DIV A {
 	padding: 15px 0;
 }
 
-.brut_image
-{
+#description #breadcrumb{
+  padding-top: 5px;
+  color: black;
+	font-size: 16px;
+}
+
+#description #breadcrumb A {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.brut_image {
   position: relative;
 	overflow: hidden;
 }

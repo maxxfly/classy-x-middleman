@@ -29,21 +29,21 @@ page '/*.txt', layout: false
 #   },
 # )
 
+["other", "t_bien_roule", "queen", "jeans"].each do |name|
+  proxy "fr/galery_#{name}.html", "localizable/galery.fr.html", :locals => { :galery_name => name }
+  proxy "en/galery_#{name}.html", "localizable/galery.en.html", :locals => { :galery_name => name }
+end
+
+
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
 helpers do
-  def get_images_in_galery
-    Dir.entries("source/images/galery/thumb/").select{|e| /.jpe?g/.match(e)}
+  def get_images_in_galery(name)
+    Dir.entries("source/images/galery/" + name + "/thumb/").select{|e| /.jpe?g/.match(e)}
   end
 end
-
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
