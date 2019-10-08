@@ -1,11 +1,22 @@
 #!/bin/bash
+for i in other t_bien_roule queen jeans
+do
+  for f in $(ls source/images/galery/$i/full/*.j*)
+  do
+    filename=$(basename -- "$f")
+    filename="${filename%.*}"
 
-rm -f source/images/galery/other/thumb/*
-rm -f source/images/galery/t_bien_roule/thumb/*
-rm -f source/images/galery/jeans/thumb/*
-rm -f source/images/galery/queen/thumb/*
+    if [ ! -f source/images/galery/$i/full/$filename.txt ]; then
 
-mogrify -path source/images/galery/other/thumb/ -resize 250x -quality 94 -verbose -format jpg source/images/galery/other/full/*.jpg
-mogrify -path source/images/galery/t_bien_roule/thumb/ -resize 250x -quality 94 -verbose -format jpg source/images/galery/t_bien_roule/full/*.jpg
-mogrify -path source/images/galery/jeans/thumb/ -resize 250x -quality 94 -verbose -format jpg source/images/galery/jeans/full/*.jpg
-mogrify -path source/images/galery/queen/thumb/ -resize 250x -quality 94 -verbose -format jpg source/images/galery/queen/full/*.jpg
+      echo "name:" > source/images/galery/$i/full/$filename.txt
+      echo "modele:" >> source/images/galery/$i/full/$filename.txt
+      echo "photographer:" >> source/images/galery/$i/full/$filename.txt
+    fi
+  done
+
+  rm -f source/images/galery/$i/thumb/*
+  rm -f source/images/galery/$i/big/*
+
+  mogrify -path source/images/galery/$i/big/ -resize "1600x1200>" -strip -verbose -format jpg source/images/galery/$i/full/*.jpg
+  mogrify -path source/images/galery/$i/thumb/ -resize 250x -quality 94 -strip -verbose -format jpg source/images/galery/$i/full/*.jpg
+done

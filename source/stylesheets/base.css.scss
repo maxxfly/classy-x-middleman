@@ -1,0 +1,55 @@
+P { font-size: 1.1em; }
+
+CITE {
+	font-size: 1em;
+	padding-left: 20px;
+	display: inline-block;
+	border-left: 1px solid #888;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.button {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	display: inline-block;
+	height: 20px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+IMG {
+	-webkit-filter: grayscale(0%); /* Safari */
+  filter: grayscale(0%);
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.center { text-align: center;}
+
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.no-cssanimations .support-note span.no-cssanimations,
+.no-csstransforms .support-note span.no-csstransforms,
+.no-csstransforms3d .support-note span.no-csstransforms3d,
+.no-csstransitions .support-note span.no-csstransitions{
+	display: block;
+}
+
+@import 'layout.css.scss';
+@import 'carousel.css.scss';
+@import 'galery.css.scss';
+@import 'brut_image.css.scss';
+@import 'products.css.scss';
+@import 'presse.css.scss';
+@import 'support.css.scss';
+@import 'video.css.scss';

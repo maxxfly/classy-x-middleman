@@ -1,0 +1,22 @@
+.products {
+	.sub_part {
+		padding-left: 30px;
+
+		IMG {
+			padding: 0 20px;
+			vertical-align:top;
+			margin-bottom: 20px;
+		}
+	}
+
+	.text {
+		display: inline-block;
+		width: 500px;
+	}
+}
+
+.iconic_description {
+	font-style: italic;
+	color: #555;
+	padding: 5px 20px 10px 20px;
+}

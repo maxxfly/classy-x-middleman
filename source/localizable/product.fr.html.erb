@@ -1,38 +1,43 @@
+---
+  title: products.title
+---
+
 <div id="description" class="products">
-  <div id="breadcrumb">
-    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
-    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-    <%= t("products.title") %>
-  </div>
+
+  <%= breadcrumb(t("products.title")) %>
 
   <h1><%= t("products.title") %></h1>
 
   <div class="sub_part">
-    <h2>Nos créations phares</h2>
-    <a href="galery_queen.html"><img src="http://lorempixel.com/200/300/fashion/" width="200" height="300" /></a>
+    <h2><%= t("galeries.iconic") %></h2>
+    <p class="iconic_description">
+      <%= t("galeries.iconic_description") %>
+    </p>
+
+    <a href="galery_queen.html"><img src="http://lorempixel.com/400/180/fashion/" width="400" height="180" /></a>
     <div class="text">
-      <h3>Queen</h3>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <h3><%= t("galeries.queen.title") %></h3>
+      <%= t("galeries.queen.description") %>
     </div>
 
-     <a href="galery_t_bien_roule.html"><img src="http://lorempixel.com/200/300/fashion/" width="200" height="300"/></a>
+     <a href="galery_t_bien_roule.html"><img src="http://lorempixel.com/400/180/fashion/" width="400" height="180"/></a>
      <div class="text">
-       <h3>T'es bien roule</h3>
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       <h3><%= t("galeries.t_bien_roule.title") %></h3>
+       <%= t("galeries.t_bien_roule.description") %>
      </div>
 
-     <a href="galery_jeans.html"><img src="http://lorempixel.com/200/300/fashion/" width="200" height="300"/></a>
+     <a href="galery_jeans.html"><img src="http://lorempixel.com/400/180/fashion/" width="400" height="180"/></a>
      <div class="text">
-       <h3>Jeans</h3>
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       <h3><%= t("galeries.jeans.title") %></h3>
+       <%= t("galeries.jeans.description") %>
      </div>
   </div>
 
   <div class="sub_part">
-    <h2>Nos autres créations</h2>
-     <a href="galery_other.html"><img src="http://lorempixel.com/200/300/fashion/" width="200" height="300"/></a>
+    <h2><%= t("galeries.other.title") %></h2>
+     <a href="galery_other.html"><img src="http://lorempixel.com/400/180/fashion/" width="400" height="180"/></a>
      <div class="text">
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       <%= t("galeries.other.description") %>
      </div>
   </div>
 </div>

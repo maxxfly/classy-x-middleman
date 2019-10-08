@@ -1,0 +1,62 @@
+.brut_image {
+  position: relative;
+	overflow: hidden;
+
+	P {
+		font-weight: bold;
+		color: white;
+		font-family: 'Raleway', sans-serif;
+		font-weight: bold;
+		background-color: #fe00d9;
+		padding: 3px 6px;
+		font-size: 28px;
+		letter-spacing: 2px;
+		transition: 0.75s ease-in-out;
+	}
+
+	.p1 {
+		position: absolute;
+		top: 50px;
+		right: -200px;
+		transition-delay: 0;
+	}
+
+	.p2 {
+		position: absolute;
+		top: 130px;
+		right: -200px;
+	  transition-delay: 2s;
+	}
+
+	.p3 {
+		position: absolute;
+		top: 210px;
+		right: -200px;
+		transition-delay: 4s;
+	}
+}
+
+.brut_image.animated P {
+	right: 0 !important;
+}
+
+@media screen and (max-width: 1150px) {
+  .brut_image {
+    IMG {
+      max-width: 100% !important;
+      margin: 0 0;
+    }
+
+    P {
+      font-size: 20px;
+      letter-spacing: 2px;
+      transition: 0.75s ease-in-out;
+    }
+
+    .p1 { top: 20px; }
+    .p2 { top: 70px; }
+    .p3 { top: 120px; }
+
+  }
+
+}

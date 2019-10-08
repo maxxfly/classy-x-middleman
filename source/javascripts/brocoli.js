@@ -27,7 +27,7 @@ $(document).ready()
 			$('body').append('<div id="popin"></div>');
 			$('#popin').css('height', Math.max($('body').height(), $(window).innerHeight()));
 
-			$('#popin').append('<figure id="content_popin"><img id="bigphoto" src="'+ $(e.currentTarget).find('IMG').attr('src').replace('/thumb/', '/full/') +'"/></figure>');
+			$('#popin').append('<figure id="content_popin"><img id="bigphoto" src="'+ $(e.currentTarget).find('IMG').attr('src').replace('/thumb/', '/big/') +'"/></figure>');
 
 			$('#content_popin').css('margin-top', $(window).scrollTop() + 10);
 			$('#content_popin').prepend('<div id="close"><span class="fa fa-window-close fa-2x"></span></div>');

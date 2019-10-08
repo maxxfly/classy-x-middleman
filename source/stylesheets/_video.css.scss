@@ -1,0 +1,13 @@
+#video {
+	text-align: center;
+}
+
+IFRAME {
+	width: 750px; height: 422px;
+}
+
+@media screen and (max-width: 750px) {
+	IFRAME {
+		width: 375px; height: 211px;
+	}
+}

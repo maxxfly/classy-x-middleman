@@ -60,10 +60,21 @@ fr:
     title: Nos Créations
 
   galeries:
-    other: Nos autres créations
-    queen: Queen
-    t_bien_roule: T'es bien roulé
-    jeans: Jeans
+    iconic: Nos créations phares
+    iconic_description: Classy X design cherche à minimiser son impact environnemental et à éviter tout gâchis en utilisant et réutilisant des matériaux délaissés. Avec ces laissés pour compte nous créons des pièces uniques et intemporelles.
+
+    other:
+      title: Nos autres créations
+      description:
+    queen:
+      title: Upcycling Queen
+      description: C'est l'iconique. Quand des chutes de tissus deviennent le support de parures brodées de perles et autres matériaux de récup et vous donne des allures de reine.
+    t_bien_roule:
+      title: T'es bien roulé
+      description: Quand des chutes de tissus se retrouvent enroulé de fil de coton bio ou de seconde main puis brodés de perles et autre matériaux de récup.
+    jeans:
+      title: My denim one
+      description: Parce que le jean c'est la tendance qui se renouvelle sans cesse. C'est aussi des opportunités infini en Upcycling de pouvoir créer des pièces uniques et stylées.
 
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"

@@ -61,10 +61,21 @@ en:
     title: Our products
 
   galeries:
-    other: Our other products
-    queen: Queen
-    t_bien_roule: T'es bien roule
-    jeans: Jeans
+    iconic: Our iconic designs
+    iconic_description: Classy X design seeks to minimize its environmental impact, to use and reuse neglected materials. With these materials that are left behind, we create beautiful and timeless designs. 
+
+    other:
+      title: Our other products
+      description:
+    queen:
+      title: Upcycling Queen
+      description: The iconic! When scrap fabrics become the support of neck ornaments embroidered with beads or others second hand materials. It gives you a Queen style.
+    t_bien_roule:
+      title: T'es bien roule
+      description: When scrap fabrics are embroidered with second hand threads or organic cotton threads and second hand materials.
+    jeans:
+      title: My denim one
+      description: Denim is timeless. It give us too so many opportunities in the upcycling process to create unique stylish designs.
 
   button_galery: "See other pictures"
   button_tshirt: "See our tshirts"
