@@ -69,10 +69,10 @@ en:
       description:
     queen:
       title: Upcycling Queen
-      description: The iconic! When scrap fabrics become the support of neck ornaments embroidered with beads or others second hand materials. It gives you a Queen style.
+      description: The iconic! When fabric scraps are turned into neck ornaments embroidered with beads or others second hand materials. It gives you a Queen style.
     t_bien_roule:
       title: T'es bien roule
-      description: When scrap fabrics are embroidered with second hand threads or organic cotton threads and second hand materials.
+      description: When fabric scraps are wrapped, embroidered with second hand threads or organic cotton threads and second hand materials.
     jeans:
       title: My denim one
       description: Denim is timeless. It gives us too so many opportunities in the upcycling process to create unique stylish designs.
@@ -82,6 +82,8 @@ en:
   button_presse: We talk about us
   button_support: Support the project
   button_products: Our products
+
+  home: Home
 
   brut_p1: SUSTAINABLE
   brut_p2: RECYCLED

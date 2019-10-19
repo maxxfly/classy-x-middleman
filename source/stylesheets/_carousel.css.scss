@@ -239,7 +239,8 @@ SECTION.carousel
 
 	.ia-container figcaption span {
 		font-size: 16px;
-	}
+	}	.fa { display: none; }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -250,6 +251,10 @@ SECTION.carousel
 	.ia-container IMG { width: 30%;  float: left; padding: 2px;  }
 
 	.carousel { display: none;}
+
+	.ia-container {
+		.fa { display: none !important; }
+	}
 
 	INPUT { display: none !important; }
 }

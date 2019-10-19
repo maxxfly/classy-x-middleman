@@ -8,6 +8,6 @@ IFRAME {
 
 @media screen and (max-width: 750px) {
 	IFRAME {
-		width: 375px; height: 211px;
+		width: inherit; height: inherit;
 	}
 }
