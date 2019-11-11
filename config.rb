@@ -69,11 +69,13 @@ helpers do
 
     if File.exists?(path)
       t = ""
+
       meta = YAML.load(File.read(path))
 
       t += "<h3>#{meta["name"]}</h3>" if meta["name"].present?
-      t += "<i>Model : </i> #{display_users(meta["modele"])} <br/>"  if meta["modele"].present?
+      t += "<i>Model : </i> #{display_users(meta["modele"])} <br/>" if meta["modele"].present?
       t += "<i>Photographer : </i> #{display_users(meta["photographer"])}<br/>" if meta["photographer"].present?
+      return t
     end
   end
 
