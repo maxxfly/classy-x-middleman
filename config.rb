@@ -72,8 +72,29 @@ helpers do
       meta = YAML.load(File.read(path))
 
       t += "<h3>#{meta["name"]}</h3>" if meta["name"].present?
-      t += "<i>Modele : </i> #{meta["modele"]} <br/>"  if meta["modele"].present?
-      t += "<i>Photographer : </i> #{meta["photographer"]}<br/>" if meta["photographer"].present?
+      t += "<i>Model : </i> #{display_users(meta["modele"])} <br/>"  if meta["modele"].present?
+      t += "<i>Photographer : </i> #{display_users(meta["photographer"])}<br/>" if meta["photographer"].present?
+    end
+  end
+
+  def display_users(users)
+    path = "source/images/users/#{users}.txt"
+
+    if File.exists?(path)
+      meta_user = YAML.load(File.read(path))
+
+      t = ""
+      if meta_user["name"]
+        if meta_user["link"]
+          t += "<a href='#{ meta_user["link"]}' target='_blank'>#{meta_user["name"]} <i class='fa fa-link' aria-hidden='true'></i></a>"
+        else
+          t += meta_user["name"]
+        end
+      end
+
+      t
+    else
+      users
     end
   end
 

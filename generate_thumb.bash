@@ -5,6 +5,9 @@ mount images_galery
 for i in other t_bien_roule queen jeans
 do
   rm -f source/images/galery/$i/full/*
+  rm -f source/images/users/*
+
+  cp -v images_galery/users/* source/images/users/
   cp -v images_galery/$i/* source/images/galery/$i/full/ 
 
   for f in $(ls source/images/galery/$i/full/*.j*)
