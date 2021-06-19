@@ -3,10 +3,10 @@ fr:
   new_description:
     concept:
       title: "NOTRE CONCEPT"
-      p1: "Classy X design est un projet artistique promouvant une mode plus inclusive et eco-responsable."
-      p2: "Dans l'incarnation du changement, la fondatrice Diana Apsara (designeuse et mannequin) n'hésite pas à inclure des modèles hors des standards habituels (de toutes mensurations, transgenres, bodmodées, de tout âges, de diverses origines...)"
-      p3: "La standardisation de la beauté m'angoisse, elle nous prive de notre authenticité. Il y a tant de diversités sous représentées... La mode se doit d’évoluer et de mieux refléter la société"
-      p4: "Classy X Design s'inscrit également dans une logique de mode plus éthique: les créations fait-main sont réalisées sur le principe de l'upcycling."
+      p1: "Classy X design est un collectif promouvant une mode plus inclusive et eco-responsable."
+      p2: "Dans l'incarnation du changement, la fondatrice et créatrice Diana Apsara n'hésite pas à inclure des modèles hors des standards habituels (de toutes mensurations, de tout âges, transgenres, tatoués, de diverses origines..."
+      p3: "La standardisation de la beauté m'angoisse: elle nous prive de notre authenticité. Il y a tant de diversités sous représentées... La mode se doit d’évoluer et de mieux refléter la société."
+      p4: "Classy X Design ce sont aussi des créations qui s'inscrivent dans une logique de mode plus éthique: Diana Apsara œuvre sur les principes de l'upcycling."
       p5: "En revalorisant des tissus et matériaux de seconde main, nous participons à une mode plus respectueuse de l'environnement et nous nous opposons aux circuits esclavagistes des industries de la fast fashion."
     working:
       title: "NOTRE FONCTIONNEMENT"
@@ -69,7 +69,7 @@ fr:
 
     queen:
       title: Upcycling Queen
-      description: C'est l'iconique. Quand des chutes de tissus deviennent le support de parures brodées de perles et autres matériaux de récup et vous donne des allures de reine.
+      description: C'est l'iconique. Quand des chutes de tissus deviennent le support de parures brodées de perles et autres matériaux de récup et vous donnent des allures de reine.
     t_bien_roule:
       title: T'es bien roulé
       description: Quand des chutes de tissus se retrouvent enroulé de fil de coton bio ou de seconde main puis brodés de perles et autre matériaux de récup.
