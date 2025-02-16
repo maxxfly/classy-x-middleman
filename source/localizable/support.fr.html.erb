@@ -1,1 +1,94 @@
-/var/www/html/classy_x_v2/source/localizable/support.en.html.erb
+---
+  title: support.title
+---
+
+<div id="description">
+  <%= breadcrumb(t("support.title")) %>
+
+  <div id="support">
+    <h1><%= t("support.title") %></h1>
+
+    <%= t("support.line1") %>
+    <br/ >
+
+    <%= t("support.line2") %> : <br/><br/>
+
+    <div style="padding-left:30px">
+      <div>
+        <%= t("support.line3") %> : <br/><br/>
+        <a href="https://www.instagram.com/classyxdesign/" class="icon" onclick="track_instagram()" target="_blank" title="Instagram page">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fab fa-instagram fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Instagram</span>
+        </a>
+        <br/>
+
+        <a href="https://twitter.com/Classy_X_Design" class="icon" onclick="track_twitter()" target="_blank" title="Twitter page">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fab fa-twitter fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Twitter</span>
+        </a>
+        <br/>
+      </div>
+
+      <div>
+        <%= t("support.line4") %> : <br/><br/>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.classy-x.com%2F&amp;src=sdkpreparse&quote=<%= URI::encode(t("support.share_twitter")) %>" class="icon" target="_blank" title="Facebook">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fab fa-facebook fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Facebook</span>
+        </a><br/>
+
+        <a href="https://twitter.com/intent/tweet?text=<%= t("support.share_twitter") %>&url=https://www.classy-x.com" onclick="track_share_twitter()" target="_blank" class="icon" target="_blank" title="Twitter">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fab fa-twitter fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Twitter</span>
+        </a>
+        <br/>
+
+        <a href="https://www.pinterest.com/pin/create/button/"
+            data-pin-do="buttonPin"
+            data-pin-media="https://www.classy-x.com/images/galery/full/22.jpg"
+            data-pin-description="<%= t("support.share_twitter") %>"
+            data-pin-url="https://www.classy-x.com"
+            data-pin-custom="true"
+            class="icon" style='cursor: hand;'
+        >
+          <span class="fa-stack fa-lg" >
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fab fa-pinterest fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Pinterest</span>
+        </a>
+      </div>
+
+      <div>
+        <%= t("support.line5") %> : <br/><br/>
+
+        <a href="https://www.etsy.com/shop/ClassyXDesign" class="icon" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+            <i class="fas fa-shopping-bag fa-stack-1x hidden" aria-hidden="true"></i>
+          </span>
+          <span class="label">Etsy</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+></script>

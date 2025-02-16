@@ -1,1 +1,161 @@
-/var/www/html/classy_x_v2/source/localizable/index.en.html.erb
+<div class="ia-container">
+
+  <figure>
+    <a href="product.html"><img src="../images/photos/<%= data.carousel.image1 %>" alt="image01" title="Fashion creation"/></a>
+    <input type="radio" name="radio-set" checked="checked"/>
+    <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+    <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+     <!--<figcaption><span>Présentation photo n 1</span></figcaption>-->
+
+    <figure class="disabled">
+      <a href="product.html"><img src="../images/photos/<%= data.carousel.image2 %>" alt="image02"  title="different fashion"/></a>
+      <input type="radio" name="radio-set" />
+      <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+      <i class="fa fa-chevron-right fa-2x navigation " aria-hidden="true"></i>
+      <!--<figcaption><span>Présentation photo n 2</span></figcaption>-->
+
+      <figure class="disabled">
+        <a href="product.html"><img src="../images/photos/<%= data.carousel.image3 %>" alt="image03"  title="tee-shirt"/></a>
+        <input type="radio" name="radio-set" />
+        <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+        <!--<figcaption><span>Présentation photo n 3</span></figcaption>-->
+
+        <figure class="disabled">
+          <a href="product.html"><img src="../images/photos/<%= data.carousel.image4 %>" alt="image04"  title="lgbt model"/></a>
+          <input type="radio" name="radio-set" />
+          <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+          <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+          <!--<figcaption><span>Présentation photo n 4</span></figcaption>-->
+
+          <figure class="disabled">
+            <a href="product.html"><img src="../images/photos/<%= data.carousel.image5 %>" alt="image05"  title="classy x collection couture"/></a>
+            <input type="radio" name="radio-set" />
+            <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+            <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+            <!--<figcaption><span>Présentation photo n 5</span></figcaption>-->
+
+
+            <figure class="disabled">
+              <a href="product.html"><img src="../images/photos/<%= data.carousel.image6 %>" alt="image06"  title="classy x collection couture"/></a>
+              <input type="radio" name="radio-set" />
+              <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+              <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+              <!--<figcaption><span>Présentation photo n 6</span></figcaption>-->
+
+              <figure class="disabled">
+                <a href="product.html"><img src="../images/photos/<%= data.carousel.image7 %>" alt="image07"  title="classy x collection couture"/></a>
+                <input type="radio" name="radio-set" />
+                <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+                <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+                <!--<figcaption><span>Présentation photo n 7</span></figcaption>-->
+
+                <figure class="disabled">
+                  <a href="product.html"><img src="../images/photos/<%= data.carousel.image8 %>" alt="image08"  title="classy x collection couture"/></a>
+                  <input type="radio" name="radio-set" />
+                  <i class="fa fa-chevron-left fa-2x navigation hidden" aria-hidden="true"></i>
+                  <i class="fa fa-chevron-right fa-2x navigation hidden" aria-hidden="true"></i>
+                  <!--<figcaption><span>Présentation photo n 8</span></figcaption>-->
+
+                </figure>
+
+              </figure>
+
+            </figure>
+
+
+          </figure>
+
+        </figure>
+
+      </figure>
+
+    </figure>
+
+  </figure>
+
+</div>
+
+<div id="description">
+  <h2><%= t("new_description.concept.title") %></h2>
+  <p><%= t("new_description.concept.p1") %></p>
+  <p><%= t("new_description.concept.p2") %></p>
+
+  <cite><%= t("new_description.concept.p3") %></cite>
+
+  <p><%= t("new_description.concept.p4") %></p>
+  <p><%= t("new_description.concept.p5") %></p>
+
+  <p style="text-align: right;">
+    <a href="product.html" class="button">&gt; <%= t(:button_products) %></a>
+  </p>
+
+  <div id="video">
+    <iframe src="https://www.youtube.com/embed/kE4BlCbAE0Y?rel=0&controls=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+  <br/>
+  <h2><%= t("new_description.working.title") %></h2>
+  <p>
+    <%= t("new_description.working.p1") %><br/>
+    <%= t("new_description.working.p2") %>
+  </p>
+  <p>
+    <%= t("new_description.working.p3") %>
+  </p>
+
+  <cite><%= t("new_description.working.p4") %></cite>
+
+  <p><%= t("new_description.working.p5") %></p>
+  <p>
+    <%= t("new_description.working.p6") %><br/>
+    <%= t("new_description.working.p7") %>
+  </p>
+
+  <p style="text-align: right;">
+    <a href="presse.html" class="button">&gt; <%= t(:button_presse) %></a>
+  </p>
+
+  <div style="text-align: center;">
+    <div class="brut_image" id="img_description_2" style="display: inline-block;">
+      <img src="../images/photos/description_2.jpg" width="800"
+          class="center"/>
+      <p class="p1"><%= t(:brut_p1) %></p>
+      <p class="p2"><%= t(:brut_p2) %></p>
+      <p class="p3"><%= t(:brut_p3) %></p>
+    </div>
+  </div>
+
+  <br/>
+  <h2><%= t("new_description.share.title") %></h2>
+  <p><%= t("new_description.share.p1") %></p>
+  <p><%= t("new_description.share.p2") %></p>
+
+  <p style="text-align: right;">
+    <a href="support.html" class="button">&gt; <%= t(:button_support) %></a>
+  </p>
+
+  <div class="center">
+    <!--<a href="galery.html" class="button"><%= t(:button_galery) %></a>
+    <a href="support.html" class="button"><%= t(:button_support) %></a>
+    <a href="presse.html" class="button"><%= t(:button_presse) %></a>
+
+    <br/><br/><br/>
+    --->
+    <a href="galery.html">
+      <img src="../images/photos/description_1.jpg" width="800" id="img_description"
+            title="backstage" alt="backstage" class="center"/>
+    </a>
+
+  </div>
+
+</div>
+
+<script>
+  window.setInterval(function() {
+    if(isScrolledIntoView(document.getElementById('img_description_2'))) {
+      $('#img_description_2').addClass("animated");
+    }
+  }, 250);
+
+</script>

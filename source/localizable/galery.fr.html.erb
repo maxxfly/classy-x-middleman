@@ -1,1 +1,28 @@
-/var/www/html/classy_x_v2/source/localizable/galery.en.html.erb
+---
+  title: products.title
+---
+
+<div id="description">
+
+  <% galery_name ||= "other" %>
+  <%= breadcrumb('<a href="product.html">' + t("products.title") + '</a>', t("galeries.#{galery_name}.title")) %>
+
+  <br/>
+  <div class="description_galery">
+    <%= t("galeries.#{galery_name}.description") %>
+  </div>
+
+</div>
+
+<div class="galery">
+  <% get_images_in_galery(galery_name).each do |image| %>
+		<figure>
+			<%= image_tag "../images/galery/#{galery_name}/thumb/#{image}" %>
+			<figcaption>
+        <%= get_figcaption(galery_name, image) %>
+      </figcaption>
+		</figure>
+	<% end %>
+
+<script src="../../../javascripts/jquery.masonry.min.js"></script>
+<script src="../../../javascripts/brocoli.js"></script>

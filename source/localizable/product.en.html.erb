@@ -1,1 +1,51 @@
-/var/www/html/classy_x_v2/source/localizable/product.fr.html.erb
+---
+  title: products.title
+---
+
+<div id="description" class="products">
+
+  <%= breadcrumb(t("products.title")) %>
+
+  <h1><%= t("products.title") %></h1>
+
+  <div class="sub_part">
+    <h2><%= t("galeries.iconic") %></h2>
+    <p class="iconic_description">
+      <%= t("galeries.iconic_description") %>
+    </p>
+
+    <div class="desc_categ_product">
+      <a href="galery_queen.html"><img src="/images/kind_products/upcyclingqueen.jpg"/></a>
+      <div class="text">
+        <h3><%= t("galeries.queen.title") %></h3>
+        <a href="galery_queen.html"><%= t("galeries.queen.description") %></a>
+      </div>
+    </div>
+
+    <div class="desc_categ_product">
+       <a href="galery_t_bien_roule.html"><img src="/images/kind_products/tbienroule.jpg"/></a>
+       <div class="text">
+         <h3><%= t("galeries.t_bien_roule.title") %></h3>
+         <a href="galery_t_bien_roule.html"><%= t("galeries.t_bien_roule.description") %></a>
+       </div>
+    </div>
+
+     <div class="desc_categ_product">
+       <a href="galery_jeans.html"><img src="/images/kind_products/mydenimone.jpg" /></a>
+       <div class="text">
+         <h3><%= t("galeries.jeans.title") %></h3>
+         <a href="galery_jeans.html"><%= t("galeries.jeans.description") %></a>
+       </div>
+     </div>
+  </div>
+
+  <div class="sub_part">
+    <h2><%= t("galeries.other.title") %></h2>
+    <div class="desc_categ_product">
+       <a href="galery_other.html"><img src="/images/kind_products/nosautrescreations.jpg"/></a>
+       <div class="text">
+         <a href="galery_other.html"><%= t("galeries.other.description") %></a>
+       </div>
+    </div>
+  </div>
+</div>

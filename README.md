@@ -2,15 +2,26 @@
 
 This is the classy_x.com website
 
+Install
+=======
+
+`bundle install`
+
+Prerequires
+===========
+
+- nodejs
+
 Build
 =====
 
-bundle exec middleman build
+`bundle exec middleman build`
 
 Server
 ======
 
-bundle exec middle server
+`bundle exec middle server`
+
 
 use of generate_thumb.bash
 ==========================
