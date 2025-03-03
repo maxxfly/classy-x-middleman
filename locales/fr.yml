@@ -2,21 +2,16 @@
 fr:
   new_description:
     concept:
-      title: "NOTRE CONCEPT"
-      p1: "Classy X design est un collectif promouvant une mode plus inclusive et eco-responsable."
-      p2: "Dans l'incarnation du changement, la fondatrice et créatrice Diana Apsara n'hésite pas à inclure des modèles hors des standards habituels (de toutes mensurations, de tout âges, transgenres, tatoués, de diverses origines..."
-      p3: "La standardisation de la beauté m'angoisse: elle nous prive de notre authenticité. Il y a tant de diversités sous représentées... La mode se doit d’évoluer et de mieux refléter la société."
-      p4: "Classy X Design ce sont aussi des créations qui s'inscrivent dans une logique de mode plus éthique: Diana Apsara œuvre sur les principes de l'upcycling."
-      p5: "En revalorisant des tissus et matériaux de seconde main, nous participons à une mode plus respectueuse de l'environnement et nous nous opposons aux circuits esclavagistes des industries de la fast fashion."
+      title: "MAISON COUTURE"
+      p1: "Classy X Design n'est pas une maison de mode comme les autres. Elle s'extrait des logiques élitistes et consuméristes des maisons de mode conventionnelles et invite à ne plus rester consommateurs.ices passif.ves mais à devenir acteur.ices de celle ci."
+      p2: "Aujourd'hui nous continuons à vivre au rythme du modèle de la croissance économique qui est un système mortifère pour la planète et l'humain."
+      p3: "Comme si la seule façon d'exister était de posséder, au lieu de créer et de faire lien, de dominer au lieu de mettre l'empathie et le soin au cœur de nos pratiques de vie..."
+      p4: "A travers nos initiatives, nous voulons prouver qu'il est possible d’habiter la mode de façon plus humaine et solidaire."
     working:
-      title: "NOTRE FONCTIONNEMENT"
-      p1: "Classy X, c'est une exposition en mouvement permanent."
-      p2: "Chaque oeuvre une fois créée est prioritairement destinée aux shootings, défilés et performances dans l’objectif de repenser la mode de demain."
-      p3: "La mode en tant qu’art est un moyen d'expression et de communication. S'exprimer sur d'autres possibilités de vivre la mode c'est ouvrir la voie vers une évolution plus juste et égalitaire de celle ci. C'est reprendre le pouvoir. Parce que nous ne voulons plus d'une mode qui exclut et qui exploite."
-      p4: "La mode n’est pas une question productivité mais une question de créativité"
-      p5: "Elle ne doit plus être synonyme de surconsommation mais de coup de cœur."
-      p6: "Nous faisons le choix de ne vendre que très peu de pièces de nos collections."
-      p7: "Mais vous pourrez retrouver certaines d’entre elles sur notre E-shop ou sur certains marchés créateurs."
+      title: "L'HISTOIRE DE CLASSY X DESIGN"
+      p1: "En 2018-2019, la couturière plasticienne Diana Apsara fonde le collectif Classy X Design."
+      p2: "Au fil des années, le collectif grandit et évolue pour devenir une maison de couture associative. Ce changement marque un tournant : la maison élargit son champ d’action en ouvrant ainsi le projet à la transmission des savoirs-faire par la mise en place d'ateliers collaboratifs et de cours d'apprentissage des bases de l'upcycling."
+      p3: "Plutôt que de consommer sans se questionner, nous invitons à réparer et repenser la mode en lui redonnant son pouvoir transformateur des consciences sous une perspective eco-queer et anti-consumériste."
     share:
       title: "PARTAGEZ AUTOUR DE VOUS"
       p1: "N'hésitez pas à nous suivre sur les réseaux sociaux pour être tenu informé et partagez autour de vous  pour contribuer au projet."
@@ -54,7 +49,7 @@ fr:
     share_twitter: Marre de la dictature de la mode ? Envie d'une mode plus inclusive et plus éthique ? Partageons le projet classyxdesign !
 
   presse:
-    title: On parle de nous
+    title: Nos contributions
 
   products:
     title: Nos Créations
@@ -79,7 +74,7 @@ fr:
 
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"
-  button_presse: On parle de nous
+  button_presse: Nos contributions
   button_support: Supporter le projet
   button_products: Nos créations
 
