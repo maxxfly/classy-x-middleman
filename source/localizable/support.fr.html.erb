@@ -37,7 +37,7 @@
       <div>
         <%= t("support.line4") %> : <br/><br/>
 
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.classy-x.com%2F&amp;src=sdkpreparse&quote=<%= URI::encode(t("support.share_twitter")) %>" class="icon" target="_blank" title="Facebook">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.classy-x.com%2F&amp;src=sdkpreparse&quote=<%= URI::encode_www_form_component(t("support.share_twitter")) %>" class="icon" target="_blank" title="Facebook">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
             <i class="fab fa-facebook fa-stack-1x hidden" aria-hidden="true"></i>

@@ -67,7 +67,7 @@ helpers do
 
     path = "source/images/galery/" + galery_name + "/full/" + name_photo + ".txt"
 
-    if File.exists?(path)
+    if File.exist?(path)
       t = ""
 
       meta = YAML.load(File.read(path))
@@ -82,7 +82,7 @@ helpers do
   def display_users(users)
     path = "source/images/users/#{users}.txt"
 
-    if File.exists?(path)
+    if File.exist?(path)
       meta_user = YAML.load(File.read(path))
 
       t = ""
