@@ -10,11 +10,13 @@ Install
 Prerequires
 ===========
 
+- bundle
 - nodejs
 
 Build
 =====
 
+`make install`
 `bundle exec middleman build`
 
 Server
@@ -26,9 +28,9 @@ Server
 use of generate_thumb.bash
 ==========================
 
-Mounter *images_classy_x* sur le NAS
+Copier les images qu on souhaite rajouter pour les models dans le dossier *raw_images_galery*
 
-dans le dossier `/users` , on cree les models sous la forme
+dans le dossier `/raw_images_galery/users` , on cree les models sous la forme
 ```
 /users/<PRENOM MODEL>.txt
 ```

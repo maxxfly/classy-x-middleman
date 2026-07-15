@@ -1,14 +1,9 @@
 #!/bin/bash
 
-mount images_galery
-
 for i in other t_bien_roule queen jeans
 do
-  rm -f source/images/galery/$i/full/*
-  rm -f source/images/users/*
-
-  cp -v images_galery/users/* source/images/users/
-  cp -v images_galery/$i/* source/images/galery/$i/full/ 
+  cp -v raw_images_galery/users/* source/images/users/
+  cp -v raw_images_galery/$i/* source/images/galery/$i/full/ 
 
   for f in $(ls source/images/galery/$i/full/*.j*)
   do
@@ -23,11 +18,17 @@ do
     fi
   done
 
-  rm -f source/images/galery/$i/thumb/*
-  rm -f source/images/galery/$i/big/*
+  for f in source/images/galery/$i/full/*.jpg
+  do
+    filename=$(basename -- "$f")
+    filename="${filename%.*}"
 
-  mogrify -path source/images/galery/$i/big/ -resize "1600x1200>" -strip -verbose -format jpg source/images/galery/$i/full/*.jpg
-  mogrify -path source/images/galery/$i/thumb/ -resize 250x -quality 94 -strip -verbose -format jpg source/images/galery/$i/full/*.jpg
+    if [ ! -f source/images/galery/$i/big/$filename.jpg ]; then
+      mogrify -path source/images/galery/$i/big/ -resize "1600x1200>" -strip -verbose -format jpg "$f"
+    fi
+
+    if [ ! -f source/images/galery/$i/thumb/$filename.jpg ]; then
+      mogrify -path source/images/galery/$i/thumb/ -resize 250x -quality 94 -strip -verbose -format jpg "$f"
+    fi
+  done
 done
-
-umount images_galery
