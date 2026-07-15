@@ -73,11 +73,33 @@ fr:
       title: My denim one
       description: Parce que le jean c'est la tendance qui se renouvelle sans cesse. C'est aussi des opportunités infini en Upcycling de pouvoir créer des pièces uniques et stylées.
 
+  rental:
+    title: Location
+
+    p1:
+      line1: "Vous pouvez louer nos créations pour vos occasions ou événements (soirées, festivals, performances, drag show…)"
+      line2: "Tout se fait sur devis et échange par mail cxdcouture@gmail.com mais voici une évaluation approximative ci-dessous:"
+    items:
+      item1:
+        title: "Robe"
+        description: "Entre 400 et 800 euros la journée environ"
+      item2:
+        title: "Parure"
+        description: "Environ 400 et 600 euros la journée environ"
+      item3:
+        title: "Boucles d'oreille"
+        description: "Environ 20 euros la journée"
+
+    p2:
+      line1: "En louant une création Classy X Design pour votre événement, vous sublimez les valeurs de la maison en plus d’avoir un look unique qui ne laissera pas indifférent. De plus, celà nous nous permet de racheter du matériel de base destiné à nos actions solidaires et créatives."
+
+
   button_galery: "Voir d'autres photos"
   button_tshirt: "Voir nos tee-shirts"
   button_presse: Nos contributions
   button_support: Supporter le projet
   button_products: Nos créations
+  button_rental: Location
 
   home: Accueil
 

@@ -73,11 +73,35 @@ en:
       title: My denim one
       description: Denim is timeless. It gives us too so many opportunities in the upcycling process to create unique stylish designs.
 
+  rental:
+    title: Rentals
+
+    p1:
+      line1: "Our creations are available to rent for special occasions and events, including parties, festivals, performances, drag shows, and more."
+      line2: "All rentals are arranged by email and quoted individually. Please contact us at cxdcouture@gmail.com. As a general price guide:"
+    items:
+      item1:
+        title: "Dress"
+        description: "Approximately €400-800 per day"
+      item2:
+        title: "Set / Ensemble"
+        description: "Approximately €400-600 per day"
+      item3:
+        title: "Earrings"
+        description: "Approximately €20 per day"
+
+    p2:
+      line1: "By renting a Classy X Design creation, you’ll not only wear a truly unique look that won’t go unnoticed-you’ll also embody the values of our fashion house. Your rental directly supports the purchase of essential materials for our community-based and creative initiatives."
+
+
+
   button_galery: "See other pictures"
   button_tshirt: "See our tshirts"
   button_presse: Our contributions
   button_support: Support the project
   button_products: Our products
+  button_rental: Rentals
+
 
   home: Home
 
