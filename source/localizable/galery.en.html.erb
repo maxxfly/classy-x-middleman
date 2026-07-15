@@ -14,7 +14,7 @@
 
 </div>
 
-<div class="galery">
+<div class="galery" data-zoom-hint="<%= t('galeries.zoom_hint') %>">
   <% get_images_in_galery(galery_name).each do |image| %>
 		<figure>
 			<%= image_tag "../images/galery/#{galery_name}/thumb/#{image}" %>
@@ -25,4 +25,5 @@
 	<% end %>
 
 <script src="../../../javascripts/jquery.masonry.min.js"></script>
-<script src="../../../javascripts/brocoli.js"></script>
+<script src="../../../javascripts/galery_zoom.js"></script>
+<script src="../../../javascripts/galery_popin.js"></script>
