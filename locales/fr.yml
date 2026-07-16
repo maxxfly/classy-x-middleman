@@ -63,12 +63,12 @@ fr:
       title: Nos autres créations
       description: "Notre portfolio, nos shootings, notre showroom en ligne: C'est ici !" 
 
-    queen:
-      title: Upcycling Queen
-      description: C'est l'iconique. Quand des chutes de tissus deviennent le support de parures brodées de perles et autres matériaux de récup et vous donnent des allures de reine.
-    t_bien_roule:
-      title: T'es bien roulé
-      description: Quand des chutes de tissus se retrouvent enroulé de fil de coton bio ou de seconde main puis brodés de perles et autre matériaux de récup.
+    creation:
+      title: Créations iconiques de Classy X 
+      description: Enfant, c’est auprès de sa grand-mère rom pour qui la réparation textile était une transmission culturelle, que Diana Apsara apprend la couture.<br/><br/>Cette pratique, vite devenue intuitive et libératrice, ne la quittera plus.<br/><br/>Au fil des années émergent des notions comme - D.I.Y. (do it yourself), upcycling, empowerment, stimming, décroissance - et viennent renforcer ses procédés créatifs. Voici un échantillon des créations de Diana qui sont devenues iconiques et qui teintent aujourd’hui l’esthétique de la maison Classy X.
+    workshop:
+      title: Workshop/classe/coulisses
+      description: "Hors du système marchand, Classy X Design fait un choix radical : transmettre ses savoir-faire.<br/><br/>Réparer et transformer le textile devient un acte nécessaire, face à des tendances qui épuisent le vivant.<br/><br/>Les workshops sont les espaces où les élèves et collaborateur ices de Classy X se croisent et apprennent ensemble, sous la direction artistique de la fondatrice Diana Apsara. Ces ateliers sont créés dans une perspective d'accessibilité, de partage mais aussi et surtout de soin à échelle individuelle & collective."
     jeans:
       title: My denim one
       description: Parce que le jean c'est la tendance qui se renouvelle sans cesse. C'est aussi des opportunités infini en Upcycling de pouvoir créer des pièces uniques et stylées.

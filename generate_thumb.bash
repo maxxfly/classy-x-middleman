@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in other t_bien_roule queen jeans
+for i in other workshop creation jeans
 do
   rm -fv source/images/users/*
   cp -v raw_images_galery/users/* source/images/users/

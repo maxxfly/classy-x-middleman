@@ -41,7 +41,7 @@ name: <NOM MODEL>
 link: <LIEN VERS SON SITE INTERNET>
 ```
 
-a cote de ca, on a un dossier par galerie: *jean*, *other*, *queen*, *t_bien_roule*
+a cote de ca, on a un dossier par galerie: *jean*, *other*, *queen*, *workshop*
 dans chaque dossier, on depose la photo dimension originale et un fichier texte avec le meme nom qui l accompagne
 par exemple
 
