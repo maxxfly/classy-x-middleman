@@ -9,13 +9,22 @@
     <h1><%= t("support.title") %></h1>
 
     <%= t("support.line1") %>
+    <br/><br/>
+
+    <div>
+      <a href="https://www.paypal.me/cxdcouture" class="icon" onclick="track_paypal()" target="_blank" title="Paypal page">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
+          <i class="fab fa-paypal fa-stack-1x hidden" aria-hidden="true"></i>
+        </span>
+        <span class="label">Paypal</span>
+      </a>
+    </div>
     <br/>
 
-    <%= t("support.line2") %> : <br/><br/>
-
-    <div style="padding-left:30px">
+    <div>
       <div>
-        <%= t("support.line3") %> : <br/><br/>
+        <h3><%= t("support.line3") %> : </h3>
         <a href="https://www.instagram.com/classyxdesign/" class="icon" onclick="track_instagram()" target="_blank" title="Instagram page">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x fa-inverse hidden"></i>
@@ -27,7 +36,7 @@
 
       </div>
       <div>
-        <%= t("support.line4") %> : <br/><br/>
+        <h3><%= t("support.line4") %> :</h3>
 
         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.classy-x.com%2F&amp;src=sdkpreparse&quote=<%= URI::encode_www_form_component(t("support.share_twitter")) %>" class="icon" target="_blank" title="Facebook">
           <span class="fa-stack fa-lg">
@@ -63,7 +72,7 @@
       </div>
 
       <div>
-        <%= t("support.line5") %> : <br/><br/>
+        <h3><%= t("support.line5") %> :</h3>
 
         <a href="https://www.etsy.com/shop/ClassyXDesign" class="icon" onclick="track_etsy()" target="_blank" title="Buy on Etsy">
           <span class="fa-stack fa-lg">

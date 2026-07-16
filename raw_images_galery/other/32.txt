@@ -1,3 +1,0 @@
-name: My Jumpsuit one
-modele: diana
-photographer:
