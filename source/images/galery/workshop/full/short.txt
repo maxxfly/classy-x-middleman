@@ -1,0 +1,4 @@
+name:
+modele:
+photographer:
+stream: https://www.youtube.com/shorts/8T-3I9_FMXA

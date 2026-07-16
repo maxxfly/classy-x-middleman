@@ -61,6 +61,15 @@ helpers do
     end
   end
 
+  def get_stream(galery_name, name_photo)
+    name_photo_clean = name_photo.gsub(/\.jpe?g$/, "")
+    path = "source/images/galery/" + galery_name + "/full/" + name_photo_clean + ".txt"
+    if File.exist?(path)
+      meta = YAML.load(File.read(path))
+      meta["stream"]
+    end
+  end
+
   def get_figcaption(galery_name, name_photo)
     name_photo.gsub!(".jpeg", "")
     name_photo.gsub!(".jpg", "")

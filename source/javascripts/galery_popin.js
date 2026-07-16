@@ -10,6 +10,7 @@ $(document).ready()
 	$('.galery FIGURE').bind('click', function(e)
 		{
 			var $figure = $(e.currentTarget);
+			var streamUrl = $figure.data('stream');
 			var imgSrc = $figure.find('IMG').attr('src').replace('/thumb/', '/big/');
 
 			$('body').append('<div id="popin"></div>');
@@ -26,8 +27,23 @@ $(document).ready()
 			if (!$figure.prev().length) { $('#prev_photo').addClass('disabled'); }
 			if (!$figure.next().length) { $('#next_photo').addClass('disabled'); }
 
-			// Corps : photo + légende
-			$('#popin').append('<div id="popin_body"><img id="bigphoto" src="' + imgSrc + '"/></div>');
+			if (streamUrl) {
+				// Convertir l'URL YouTube Shorts/standard en URL embed
+				var embedUrl = streamUrl
+					.replace('youtube.com/shorts/', 'youtube.com/embed/')
+					.replace('youtu.be/', 'youtube.com/embed/');
+				$('#popin').append(
+					'<div id="popin_body">' +
+						'<div class="stream_embed">' +
+							'<iframe src="' + embedUrl + '" frameborder="0" allowfullscreen ' +
+							'allow="autoplay; encrypted-media; picture-in-picture"></iframe>' +
+						'</div>' +
+					'</div>'
+				);
+			} else {
+				// Corps : photo + légende
+				$('#popin').append('<div id="popin_body"><img id="bigphoto" src="' + imgSrc + '"/></div>');
+			}
 
 			if ($figure.find('DIV').length) {
 				$('#popin_body').append('<div class="info_supp">' + $figure.find('DIV').html() + '</div>');
@@ -53,16 +69,18 @@ $(document).ready()
 				$('#popin').remove();
 			});
 
-			// Desktop : clic sur la photo = photo suivante
-			$('#bigphoto').on('click', function() {
-				if ($(window).width() > 750 && $figure.next().length) {
-					$('#popin').remove();
-					$figure.next().trigger('click');
-				}
-			});
+			if (!streamUrl) {
+				// Desktop : clic sur la photo = photo suivante
+				$('#bigphoto').on('click', function() {
+					if ($(window).width() > 750 && $figure.next().length) {
+						$('#popin').remove();
+						$figure.next().trigger('click');
+					}
+				});
 
-			// Zoom + pan + minimap (mobile)
-			initGaleryZoom($figure);
+				// Zoom + pan + minimap (mobile)
+				initGaleryZoom($figure);
+			}
 
 			window.location = '#' + encodeURI($figure.find('IMG').attr('src'));
 		}
@@ -88,11 +106,4 @@ $(document).ready()
 		}
 	}
 
-	$(window).on('load', function() {
-		$('.galery').masonry({
-			itemSelector: 'FIGURE'
-		});
-	});
-
 }
-

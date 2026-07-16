@@ -16,7 +16,8 @@
 
 <div class="galery" data-zoom-hint="<%= t('galeries.zoom_hint') %>">
   <% get_images_in_galery(galery_name).each do |image| %>
-		<figure>
+		<% stream = get_stream(galery_name, image) %>
+		<figure<% if stream %> data-stream="<%= stream %>"<% end %>>
 			<%= image_tag "../images/galery/#{galery_name}/thumb/#{image}" %>
 			<figcaption>
         <%= get_figcaption(galery_name, image) %>
@@ -24,6 +25,5 @@
 		</figure>
 	<% end %>
 
-<script src="../../../javascripts/jquery.masonry.min.js"></script>
 <script src="../../../javascripts/galery_zoom.js"></script>
 <script src="../../../javascripts/galery_popin.js"></script>
