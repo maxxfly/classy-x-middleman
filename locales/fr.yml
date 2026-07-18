@@ -59,9 +59,9 @@ fr:
     iconic: Nos créations phares
     iconic_description: Classy X design cherche à minimiser son impact environnemental et à éviter tout gâchis en utilisant et réutilisant des matériaux délaissés. Avec ces laissés pour compte nous créons des pièces uniques et intemporelles.
 
-    other:
-      title: Nos autres créations
-      description: "Notre portfolio, nos shootings, notre showroom en ligne: C'est ici !" 
+    photoshoots:
+      title: "Photoshoots & défilés"
+      description: "Que ce soit dans l’intimité d’une salle de cours, sous les flash d’un studio photo ou la chaleur volcanique d’un runway, Diana veut que soient célébrées des identités et des héritages trop souvent stigmatisés comme le sont les siens.<br/><br/>Et, à l’heure où la planète brûle et où les droits des personnes trans et queer sont particulièrement ciblés, les mots d’ordre sont éco-queer et anti-consumérisme."
 
     creation:
       title: Créations iconiques de Classy X 
