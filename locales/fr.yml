@@ -54,6 +54,17 @@ fr:
   products:
     title: Nos Créations
 
+  mending_to_wear:
+    title: Mending to Wear
+    p1: "Plutôt que d’encourager la surconsommation de vêtements sur une planète déjà saturée de textiles, la maison Classy X met son savoir-faire au service de la réparation."
+    p2: "Nous proposons des interventions de visible mending*; une approche qui sublime les marques du temps en les transformant en éléments esthétiques uniques. Chaque pièce abîmée, trouée ou tâchée retrouve ainsi une seconde vie, réinterprétée et signée par l’univers de notre maison."
+    p3: "Offrez à vos vêtements une nouvelle histoire, où réparation rime avec créativité."
+    p4: "Chaque projet fait l’objet d’un devis personnalisé, établi après échange et évaluation de votre demande."
+    p5: "Nous contacter à <a href='mailto:cxdcouture@gmail.com'>cxdcouture@gmail.com</a>"
+    p6: "avec des photos de votre vêtement à sublimer."
+    p7: "Le visible mending est une pratique militante de réparation visible du vêtement. Elle s’oppose à l’obsolescence programmée et elle est un étendard de conscience écologique et d’anti-consumérisme."
+    p8: "Pourquoi réparer plutôt qu’acheter des vêtements neufs ? Car réparer est un acte puissant pour la justice sociale et environnementale et qu’avec nous, vous avez la certification d’un travail fait main et certifié par la maison de mode associative Classy X. De plus, payer notre maison pour une réparation textile nous permet de racheter du matériel de base destiné à nos actions solidaires et créatives."
+
   galeries:
     zoom_hint: "Pincez pour zoomer"
     iconic: Nos créations phares
@@ -69,9 +80,6 @@ fr:
     workshop:
       title: Workshop/classe/coulisses
       description: "Hors du système marchand, Classy X Design fait un choix radical : transmettre ses savoir-faire.<br/><br/>Réparer et transformer le textile devient un acte nécessaire, face à des tendances qui épuisent le vivant.<br/><br/>Les workshops sont les espaces où les élèves et collaborateur ices de Classy X se croisent et apprennent ensemble, sous la direction artistique de la fondatrice Diana Apsara. Ces ateliers sont créés dans une perspective d'accessibilité, de partage mais aussi et surtout de soin à échelle individuelle & collective."
-    jeans:
-      title: My denim one
-      description: Parce que le jean c'est la tendance qui se renouvelle sans cesse. C'est aussi des opportunités infini en Upcycling de pouvoir créer des pièces uniques et stylées.
 
   rental:
     title: Location

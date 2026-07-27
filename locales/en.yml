@@ -55,6 +55,18 @@ en:
   products:
     title: Our products
 
+  mending_to_wear:
+    title: Mending to Wear
+    p1: "Rather than encouraging the overconsumption of clothing on a planet already overwhelmed by textile waste, Classy X puts its expertise at the service of repair."
+    p2: "We specialize in visible mending-an approach that transforms the marks of time into unique decorative features. Every stained, torn, or damaged garment is given a second life, reimagined through the creative language of our fashion house."
+    p3: "Give your clothes a new story-one where repair becomes an act of creativity."
+    p4: "Each project is quoted individually following a discussion and assessment of your request."
+    p5: "Please contact us at <a href='mailto:cxdcouture@gmail.com'>cxdcouture@gmail.com</a> and include photographs of the garment you’d like us to transform."
+    p6: "Below you’ll find a selection of our previous repair projects."
+    p7: "Why repair instead of buying new clothes? Because repairing is a powerful act of social and environmental justice."
+    p8: "By choosing our services, you’re supporting handcrafted work created and certified by the non-profit fashion house Classy X. Your contribution also helps us purchase essential materials for our community-focused and creative projects."
+
+
   galeries:
     zoom_hint: "Pinch to zoom"
     iconic: Our iconic designs
@@ -69,9 +81,6 @@ en:
     workshop:
       title: Workshops / Classes / Behind the Scenes
       description: "Outside the logic of the commercial fashion system, Classy X Design has made a radical choice: to pass on its knowledge.<br/><br/>Repairing and transforming textiles has become a necessary act in response to trends that continue to exhaust both people and the planet.<br/><br/>Our workshops are spaces where students and collaborators come together to learn from one another under the artistic direction of founder Diana Apsara.<br/><br/>These workshops are designed with accessibility, knowledge-sharing, and, above all, individual and collective care at their core."
-    jeans:
-      title: My denim one
-      description: Denim is timeless. It gives us too so many opportunities in the upcycling process to create unique stylish designs.
 
   rental:
     title: Rentals

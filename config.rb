@@ -31,7 +31,7 @@ page '/*.txt', layout: false
 #   },
 # )
 
-["photoshoots", "workshop", "creation", "jeans"].each do |name|
+["photoshoots", "workshop", "creation"].each do |name|
   proxy "fr/galery_#{name}.html", "localizable/galery.fr.html", :locals => { :galery_name => name }, locale: :fr
   proxy "en/galery_#{name}.html", "localizable/galery.en.html", :locals => { :galery_name => name }, locale: :en
 end

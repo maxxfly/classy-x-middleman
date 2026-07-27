@@ -4,6 +4,8 @@
 	height: 100dvh;
 	background-color: black;
 	z-index: 50;
+	display: flex;
+	flex-direction: column;
 
 	#popin_toolbar {
 		display: flex;
@@ -23,6 +25,9 @@
 
 	#popin_body {
 		text-align: center;
+		flex: 1;
+		min-height: 0;
+		overflow-y: auto;
 
 		FIGCAPTION, A {
 			color: #CCC; text-align: left;
@@ -31,7 +36,7 @@
 
 		#bigphoto {
 			max-width: 100%;
-			max-height: calc(100vh - 60px);
+			max-height: calc(100vh - 120px);
 			object-fit: contain;
 			display: block;
 			margin: 0 auto;

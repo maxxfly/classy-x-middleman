@@ -1,0 +1,7 @@
+{
+  "version": "1.0",
+  "themeName": "Custom Theme",
+  "primary": "#3f76ff",
+  "background": "#1a1a1a",
+  "darkPalette": false
+}

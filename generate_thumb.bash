@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in photoshoots workshop creation jeans
+for i in photoshoots workshop creation
 do
   rm -fv source/images/users/*
   cp -v raw_images_galery/users/* source/images/users/
@@ -29,7 +29,7 @@ do
     filename=$(basename -- "$f")
     filename="${filename%.*}"
 
-    mogrify -path source/images/galery/$i/big/ -resize "1600x1200>" -strip -verbose -format jpg "$f"
-    mogrify -path source/images/galery/$i/thumb/ -resize 250x -quality 94 -strip -verbose -format jpg "$f"
+    mogrify -path source/images/galery/$i/big/ -auto-orient -resize "1600x1200>" -strip -verbose -format jpg "$f"
+    mogrify -path source/images/galery/$i/thumb/ -auto-orient -resize 250x -quality 94 -strip -verbose -format jpg "$f"
   done
 done
