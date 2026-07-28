@@ -9,12 +9,16 @@
 		padding-left: 20px;
 		margin-bottom: 30px;
 
+		H2 { text-decoration: underline; }
+
 		.desc_categ_product {
 			cursor: pointer;
 			display: flex;
 			align-items: flex-start;
 			gap: 20px;
 			margin-bottom: 40px;
+
+			H3 { text-decoration: underline; }
 		}
 
 		IMG {

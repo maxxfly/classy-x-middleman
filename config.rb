@@ -66,7 +66,7 @@ helpers do
     path = "source/images/galery/" + galery_name + "/full/" + name_photo_clean + ".txt"
     if File.exist?(path)
       meta = YAML.load(File.read(path))
-      meta["stream"]
+      meta&.[]("stream")
     end
   end
 
@@ -80,6 +80,7 @@ helpers do
       t = ""
 
       meta = YAML.load(File.read(path))
+      return t unless meta
 
       t += "<h3>#{meta["name"]}</h3>" if meta["name"].present?
       t += "<i>Model : </i> #{display_users(meta["modele"])} <br/>" if meta["modele"].present?
@@ -93,6 +94,7 @@ helpers do
 
     if File.exist?(path)
       meta_user = YAML.load(File.read(path))
+      return users unless meta_user
 
       t = ""
       if meta_user["name"]
